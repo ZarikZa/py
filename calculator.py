@@ -11,7 +11,7 @@ while d == "":
                         try:
                                 a = float(input())
                                 if a < 0:
-                                        print('нет отрицательного корня ')
+                                        print('нет отрицательного корня и корня 0 ')
                                 else:
                                         print(math.sqrt(a))
                         except ValueError:
