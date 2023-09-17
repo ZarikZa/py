@@ -10,7 +10,7 @@ while d == "":
                 if a is not float:
                         try:
                                 a = float(input())
-                                if a < 0:
+                                if a < 0 or a == 0:
                                         print('нет отрицательного корня и корня 0 ')
                                 else:
                                         print(math.sqrt(a))
