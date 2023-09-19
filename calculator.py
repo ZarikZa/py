@@ -10,8 +10,8 @@ while d == "":
                 if a is not float:
                         try:
                                 a = float(input())
-                                if a < 0 or a == 0:
-                                        print('нет отрицательного корня и корня 0 ')
+                                if a < 0:
+                                        print('нет отрицательного корня')
                                 else:
                                         print(math.sqrt(a))
                         except ValueError:
@@ -21,8 +21,8 @@ while d == "":
                 if a is not int:
                         try:
                                 a = int(input())
-                                if a == 0 or a < 0:
-                                        print('нет факториала 0 и отрицательного числа')
+                                if a < 0 or a == 0:
+                                        print('нет факториала 0 и отрацительного числа')
                                 else: 
                                         print(math.factorial(a))
                         except ValueError:
